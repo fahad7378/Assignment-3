@@ -22,7 +22,7 @@
             }
         }
 
-         /* .bg-img{
+        /* .bg-img{
             background-image: url('images/team.png');
             background-position: center;
             background-position: cover;
@@ -32,7 +32,7 @@
 </head>
 
 <body class="lato-font">
-    <header class="md:container md:mx-auto">
+    <header class="max-w-7xl mx-auto">
         <!-- nav section -->
         <nav>
             <div class="navbar rounded-full items-center p-0 md:p-5 bg-[#F85559] bg-base-100">
@@ -65,7 +65,7 @@
                 </div>
                 <img src="images/logo.png" alt="">
                 <a class="btn btn-ghost normal-case text- text-white md:text-4xl text-xl">Fruit Burst</a>
-                <div class="navbar-end jamela-begum ">
+                <div class="navbar-end jamela-begum hidden ">
                     <input type="text"
                         class="py-2 px-4 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-300"
                         placeholder="Search" />
@@ -75,9 +75,9 @@
         </nav>
         <!-- slider -->
         <section class="md:py-12 py-6">
-            <div class="carousel relative  md:max-w-7xl">
+            <div class="carousel opacity-70 relative  md:max-w-7xl">
                 <div id="slide1" class=" carousel-item relative w-full">
-                    <img src="images/team.png" class="md:h-[600px] h-[400px] lg:h-[600px] " />
+                    <img src="images/team.png" class="w-full md:h-[600px] h-[400px] lg:h-[600px] " />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
@@ -106,7 +106,7 @@
                 </div>
 
             </div>
-            <div class="hero hero-content absolute  bottom-20 mb-20 md:mb-14 items-center justify-center">
+            <div class="hero hero-content absolute  top:0 right:0 left:0 bottom-24  items-center justify-center">
                 <div class="hero-content text-center">
                     <div class="max-w-md">
                         <h1 class="text-5xl  font-bold text-white">Exotic tastes at your doorstep</h1>
@@ -118,7 +118,7 @@
 
         </section>
     </header>
-    <main class="md:container mx-auto">
+    <main class="max-w-7xl mx-auto">
         <!-- card and coundown section -->
         <div class="py-12">
             <div class="flex flex-col md:flex-row justify-between py-12">
@@ -291,7 +291,107 @@
                 </div>
             </div>
         </section>
+        <!-- optional -->
+        <section>
+            <h2 class="text-5xl font-bold text-center">Why Choose Us</h2>
+            <p class="text-gray-500 my-5 font-medium text-base text-center">Contrary to popular belief, is not simply
+                random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000
+                years old.</p>
+            <div class="grid md:grid-cols-3 grid-cols-1 gap-5">
+                <div>
+                    <div class="flex gap-4 md:gap-8 mb-5 ">
+                        <div><i class="fa-solid fa-user-group p-5 bg-gray-300 rounded-full text-center"></i></div>
+                        <div class="space-y-2">
+                            <h4 class="text-2xl font-bold border-b border-whith-5 border-gray-800 ">Dedicated Team</h4>
+                            <!-- <hr class="w-40"> -->
+                            <p class="text-gray font-medium text- base">Professional employees are there for you to pick
+                                the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 md:gap-8 mb-5 ">
+                        <div><i class="fa-solid fa-user-group p-5 bg-gray-300 rounded-full text-center"></i></div>
+                        <div class="space-y-2">
+                            <h4 class="text-2xl font-bold border-b border-whith-5 border-gray-800 ">Dedicated Team</h4>
+                            <!-- <hr class="w-40"> -->
+                            <p class="text-gray font-medium text- base">Professional employees are there for you to pick
+                                the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 md:gap-8 mb-5 ">
+                        <div><i class="fa-solid fa-user-group p-5 bg-gray-300 rounded-full text-center"></i></div>
+                        <div class="space-y-2">
+                            <h4 class="text-2xl font-bold border-b border-whith-5 border-gray-800 ">Dedicated Team</h4>
+                            <!-- <hr class="w-40"> -->
+                            <p class="text-gray font-medium text- base">Professional employees are there for you to pick
+                                the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <img src="images/whychoose1.png" alt="">
+                </div>
+                <div class="text-right">
+                    <div class="flex  md:gap-8 gap-4 mb-5 ">
+                        <div>
+                            <h4 class="text-2xl font-bold border-b border-whith-5 border-gray-800  border-gray-800 ">Dedicated Team</h4>
+                            
+                            <p class="text-gray font-medium text- base">Professional employees are there for you to pick
+                                the most amazing and fresh fruits.</p>
+                        </div>
+                        <div class="space-y-2">
+                            <i class="fa-solid fa-user-group p-5 bg-gray-300 rounded-full text-right"></i>
+                        </div>
+                    </div>
+                    <div class="flex  md:gap-8 gap-4 mb-5 ">
+                        <div>
+                            <h4 class="text-2xl font-bold border-b border-whith-5 border-gray-800  border-gray-800 ">Dedicated Team</h4>
+                            
+                            <p class="text-gray font-medium text- base">Professional employees are there for you to pick
+                                the most amazing and fresh fruits.</p>
+                        </div>
+                        <div class="space-y-2">
+                            <i class="fa-solid fa-user-group p-5 bg-gray-300 rounded-full text-right"></i>
+                        </div>
+                    </div>
+                    <div class="flex  md:gap-8 gap-4 mb-5 ">
+                        <div>
+                            <h4 class="text-2xl font-bold border-b border-whith-5 border-gray-800  border-gray-800 ">Dedicated Team</h4>
+                            
+                            <p class="text-gray font-medium text- base">Professional employees are there for you to pick
+                                the most amazing and fresh fruits.</p>
+                        </div>
+                        <div class="space-y-2">
+                            <i class="fa-solid fa-user-group p-5 bg-gray-300 rounded-full text-right"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer my-10 footer-center text-white p-10 bg-[#121212] text-base-content rounded">
+        <div class="flex">
+            <img src="images/logo.png" alt="">
+            <h4 class="font-bold text-4xl">Fruit Burst</h4>
+        </div>
+        <div class="grid grid-flow-col gap-4">
+          <a class="link link-hover">Home</a> 
+          <a class="link link-hover">About Us</a> 
+          <a class="link link-hover">Shop</a> 
+          <a class="link link-hover">All Fruits</a>
+        </div> 
+        <div>
+          <div class="grid grid-flow-col gap-4">
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a> 
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a> 
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+          </div>
+        </div> 
+        <div>
+          <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+        </div>
+      </footer>
 </body>
 
 </html>
